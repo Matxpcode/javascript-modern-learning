@@ -14,7 +14,7 @@
     <div class="d-flex justify-content-center align-items-center vh-100">
         <!-- tarjeta de resultados -->
         <div class="card d-none" id="tarjeta">
-            <div class="card-header">
+            <div class="card-header fw-bold">
                 Resultados
             </div>
             <!-- Alerta de exito -->
@@ -26,6 +26,8 @@
                     <li class="list-group-item">Nombre: <span id="result_nombre"></span></li>
                     <li class="list-group-item">Precio: <span id="result_precio"></span></li>
                     <li class="list-group-item">Tipo: <span id="result_tipo"></span></li>
+                    <li class="list-group-item fw-bold">Descuento(-%): <span id="descuento"></span></li>
+                    <li class="list-group-item fw-bolder fs-5 text-primary">Total: <span id="total"></span></li>
                 </ul>
             </div>
         </div>
@@ -65,9 +67,9 @@
                         -- Elige una Opcion --
                     </button>
                     <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a class="dropdown-item active" href="#">Vip</a></li>
-                        <li><a class="dropdown-item" href="#">Regular</a></li>
-                        <li><a class="dropdown-item" href="#">Nuevo</a></li>
+                        <li><a class="dropdown-item active" href="#">nuevo</a></li>
+                        <li><a class="dropdown-item" href="#">regular</a></li>
+                        <li><a class="dropdown-item" href="#">vip</a></li>
                     </ul>
                 </div>
             </div>
