@@ -2,6 +2,10 @@
 
 Una aplicación web interactiva que simula el proceso de evaluación de solicitudes de crédito en una entidad financiera. El sistema procesa reglas de negocio complejas en tiempo real y calcula la viabilidad del préstamo basándose en los ingresos y el tipo de contrato del usuario.
 
+<img width="50%" alt="inicio" src="https://github.com/user-attachments/assets/a86d66c7-eb36-498e-9101-829099ef034b" />
+<img width="50%" alt="datos" src="https://github.com/user-attachments/assets/317e8315-7435-463c-826a-83a0b4bdae7a" />
+<img width="50%" alt="resultado" src="https://github.com/user-attachments/assets/a1f30898-0324-43dd-958e-de0ae8b21926" />
+
 ---
 
 ## 🛠️ Tecnologías Usadas
