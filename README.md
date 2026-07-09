@@ -25,7 +25,7 @@ Cada bloque del curso mantiene la misma estructura para facilitar la navegación
 │   ├── index.html
 │   ├── app.js
 │   ├── style.css (si aplica)
-│   └── README.md
+│   └── README.md  (img)
 │
 ├── 📁 02-Ejercicio
 │
