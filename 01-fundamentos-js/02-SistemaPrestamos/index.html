@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Prestamo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="d-flex justify-content-center align-items-center vh-100">
+
+        <!-- resultados -->
+        <div class="card d-none" id="tarjeta">
+            <div class="card-header">
+                RESULTADOS
+            </div>
+            <div class="card-body">
+                <h5 class="card-title" id="ingreso_result"></h5>
+                <h5 class="card-title" id="contrato_result"></h5>
+                <h5 class="card-title" id="maximo_result"></h5>
+                <h5 class="card-title" id="solicita_result"></h5>
+                <h5 class="card-title" id="aprobado_result"></h5>
+            </div>
+        </div>
+
+        <form class="bg-white p-4 border rounded shadow-sm w-50" id="formulario">
+            <!-- Alerta error formulario -->
+            <div id="form_error" class="alert alert-danger text-center text-wrap" role="alert">
+                Recuerda tus datos antes de enviar!
+            </div>
+
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input name="nombre" class="form-control" id="nombre">
+
+                <!-- Alerta error nombre -->
+                <div id="nombre_error" class="form-text text-danger">No puede estar vacío</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="edad" class="form-label">Edad</label>
+                <input name="edad" class="form-control" id="edad">
+
+                <!-- Alerta error edad -->
+                <div id="edad_error" class="form-text text-danger" role="alert">
+                    Debe estar entre 18 y 65 años!
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="ingreso_mensual" class="form-label">Ingreso Mensual</label>
+                <input name="ingreso_mensual" class="form-control" id="ingreso">
+
+                <!-- Alerta error ingreso -->
+                <div id="ingreso_error" class="form-text text-danger" role="alert">
+                    Debe ser mayor S/.1,025
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="monto_solicitado" class="form-label">Monto Solicitado</label>
+                <input name="monto_solicitado" class="form-control" id="monto">
+
+                <!-- Alerta error monto -->
+                <div id="monto_error" class="form-text text-danger" role="alert">
+                    Debe ser mayor que 0
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" id="desplegable">
+                        -- SELECCIONA --
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark" id="padre">
+                        <li><a class="dropdown-item active" href="#">Indefinido</a></li>
+                        <li><a class="dropdown-item" href="#">Temporal</a></li>
+                        <li><a class="dropdown-item" href="#">Independiente</a></li>
+                    </ul>
+                </div>
+
+                <!-- Alerta error tipo -->
+                <div id="tipo_error" class="form-danger text-danger" role="alert">
+                    Debe seleccionarse
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" id="enviar">Enviar</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="dinamica.js"></script>
+</body>
+
+</html>

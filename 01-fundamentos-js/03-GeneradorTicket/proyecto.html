@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniProyecto 1</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+        }
+
+        .tarjeta {
+            border: 1px solid #ccc;
+            padding: 20px;
+            max-width: 300px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .tarjeta h2 {
+            margin: 0 0 8px;
+        }
+
+        .tarjeta p {
+            margin: 4px 0;
+            color: #555;
+        }
+
+        .activo {
+            border-color: #4caf50;
+            background: #f0fff0;
+        }
+
+        .tarjeta_luego{
+            background-color: rgb(61, 215, 61);
+        }
+    </style>
+    </style>
+</head>
+
+<body>
+
+    <h1>Generar Ticket</h1>
+
+    <input type="text" id="input-nombre" placeholder="Tu nombre">
+    <input type="text" id="input-rol" placeholder="Tu rol">
+    <input type="text" id="input-ciudad" placeholder="Tu ciudad">
+    <br><br>
+    <button type="submit">Actualizar Ticket</button>
+    <button type="reset" id="limpiar">Limpiar</button>
+
+    <div class="tarjeta" id="tarjeta">
+        <h2 id="card-nombre">Nombre</h2>
+        <p id="card-rol">Rol</p>
+        <p id="card-ciudad">Ciudad</p>
+    </div>
+
+    <script src="proyecto.js"></script>
+</body>
+
+</html>

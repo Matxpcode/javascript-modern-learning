@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prueba1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="d-flex justify-content-center align-items-center vh-100">
+        <div class="alert alert-success d-none" role="alert" id="exito">
+            Cliente Registrado!
+        </div>
+        <div class="alert alert-danger d-none" role="alert" id="fracaso">
+            Cliente no fue registrado!
+        </div>
+        <form id="formulario" class="p-5 border rounded">
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                <div class="alert alert-danger" role="alert" id="error_nombre">
+                    Nombre no puede estar vacio!
+                </div>
+                <input type="text" class="form-control" id="nombre" placeholder="Ejem: Mateo Ramirez">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Edad</label>
+                <div class="alert alert-danger" role="alert" id="error_edad">
+                    Edad debe ser mayor a 18!
+                </div>
+                <input type="text" class="form-control" id="edad" placeholder="Ejem: 18">
+            </div>
+
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Dinero (S/.)</label>
+                <div class="alert alert-danger" role="alert" id="error_dinero">
+                    Dinero disponible debe ser al menos 50!
+                </div>
+                <input type="text" class="form-control" id="dinero" placeholder="Ejem: S/.20">
+            </div>
+
+            <div class="mb-3">
+                <button type="submit" class="btn btn-primary" id="enviar">Enviar</button>
+            </div>
+        </form>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="dinamico.js"></script>
+</body>
+
+</html>
