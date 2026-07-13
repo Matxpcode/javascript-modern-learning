@@ -2,6 +2,8 @@
 
 Una aplicación web interactiva diseñada para simular el registro de usuarios mediante la captura de eventos dinámicos en el DOM y la aplicación inmediata de reglas de negocio.
 
+<img width="50%" alt="validacion" src="https://github.com/user-attachments/assets/a190ffcf-f49d-4023-80e3-69f59124b6d5" />
+
 ---
 
 ## 🛠️ Tecnologías Usadas

@@ -2,6 +2,9 @@
 
 Una aplicación web interactiva y ligera diseñada para la creación, formateo y renderizado inmediato de credenciales o tickets de usuario. Este proyecto destaca por el control preciso en la manipulación de cadenas de texto (Strings) y la mutación dinámica de estados visuales mediante clases nativas de CSS.
 
+<img width="50%" alt="ticket_vacio" src="https://github.com/user-attachments/assets/0b27a50c-0ee4-4c72-904a-25089c475ecb" />
+<img width="50%" alt="ticked_completo" src="https://github.com/user-attachments/assets/19f0bec6-b430-4d2a-8dbb-5022f7c3514f" />
+
 ---
 
 ## 🛠️ Tecnologías Usadas
