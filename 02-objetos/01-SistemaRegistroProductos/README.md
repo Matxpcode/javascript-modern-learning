@@ -2,6 +2,8 @@
 
 Una aplicación web interactiva y ligera diseñada para la creación, gestión y mutación dinámica de propiedades de un producto en tiempo real. Este proyecto destaca por el control avanzado en la manipulación de objetos en JavaScript y el manejo preciso de estados mediante la inserción, actualización y eliminación de propiedades directamente en el DOM.
 
+<img width=50% alt="objetos-1" src="https://github.com/user-attachments/assets/b6580514-536d-4f79-a526-75dad7b81146" />
+
 ## 🛠️ Tecnologías Usadas
 
 * **JavaScript (ES6+):** Captura de eventos (`submit`, `click`), iteración dinámica de estructuras de datos (`for...in`) y mutación física de objetos (`delete`, `hasOwnProperty`).
