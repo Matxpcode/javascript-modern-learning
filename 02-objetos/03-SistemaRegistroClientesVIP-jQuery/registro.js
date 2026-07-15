@@ -31,7 +31,7 @@ formulario.on("submit", function (e) {
         cliente.total = cliente.compras - (0.25*cliente.compras);
 
     } else {
-        $("#cabecera").text("Cliente No Premium");
+        $("#cabecera").text("Resultado: Cliente Regular");
         cliente.categoria = "Cliente Regular";
         cliente.descuento = "0%";
         cliente.total = cliente.compras;
@@ -39,7 +39,7 @@ formulario.on("submit", function (e) {
     respuesta_fija+=`
     <strong>Categoria:</strong> ${cliente.categoria}<br>
     <strong>Descuento:</strong> ${cliente.descuento}<br>
-    <strong>Total:</strong> ${cliente.total}
+    <strong>Total:</strong> ${cliente.total.toFixed(2)}
     `;
 
     $("#tarjeta").removeClass("d-none");
