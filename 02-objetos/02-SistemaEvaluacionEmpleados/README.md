@@ -2,6 +2,10 @@
 
 Una aplicación web interactiva y ligera diseñada para procesar, validar y calcular beneficios laborales de un empleado en tiempo real. Este proyecto destaca por el análisis condicional estructurado, la conversión segura de tipos de datos en JavaScript (casting) y la mutación dinámica de componentes visuales en base a reglas de negocio preestablecidas.
 
+<img width=50% alt="evaluacion_empleados1" src="https://github.com/user-attachments/assets/9e39e04e-1790-4a2b-ae2e-9214576a6918" />
+<img width=50% alt="evaluacion_empleados2" src="https://github.com/user-attachments/assets/d35e222a-5c74-47fe-b33b-16a5f1afd78b" />
+
+
 ## 🛠️ Tecnologías Usadas
 
 * **JavaScript (ES6+):** Captura de eventos (`submit`), parsing e inferencia de tipos de datos, manipulación estructurada del DOM y lógica de negocio condicional.
