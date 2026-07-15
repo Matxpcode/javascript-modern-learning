@@ -13,9 +13,10 @@
     <div class="d-flex justify-content-center align-items-center vh-100">
         <!-- Formulario de producto -->
         <form class="bg-dark bg-gradient text-white p-5 border rounded" id="formulario">
+            
             <!-- Boton para ver Productos: Primer, Ultimo y Total -->
-            <button type="button" class="mb-3 btn btn-primary disabled-custom">
-                Productos Agregados <span class="badge text-bg-secondary">4</span>
+            <button type="button" class="mb-3 btn btn-primary disabled-custom" id="verProd">
+                Productos Agregados <span class="badge text-bg-secondary" id="numeroProd">0</span>
             </button>
 
             <div class="mb-3">
@@ -32,10 +33,8 @@
         </form>
 
         <!-- Tarjeta de respuesta -->
-        <div class="card" id="tarjeta">
-            <div class="card-header" id="cabecera">
-                Registro Producto
-            </div>
+        <div class="card p-3 m-5 d-none" id="tarjeta">
+            <div class="card-header fw-semibold" id="cabecera"></div>
             <div class="card-body">
                 <p class="card-text" id="resultado"></p>
             </div>
@@ -45,6 +44,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+        <script src="registrar.js"></script> 
 </body>
 
 </html>
