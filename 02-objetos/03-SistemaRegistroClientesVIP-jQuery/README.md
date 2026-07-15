@@ -4,6 +4,10 @@
 
 Aplicación desarrollada con **JavaScript**, **jQuery** y **Bootstrap** que registra la información de un cliente, evalúa si cumple las condiciones para ser un cliente **VIP Oro** y muestra el resultado en una tarjeta con el resumen de la evaluación.
 
+<img width=50% alt="registro1" src="https://github.com/user-attachments/assets/53129363-567d-49b7-bd47-08844988ed44" />
+
+<img width=50% alt="registro2" src="https://github.com/user-attachments/assets/5eb983ed-54a2-41b9-8921-1b4f1a4fbe7f" />
+
 ---
 
 ## Objetivos del ejercicio
