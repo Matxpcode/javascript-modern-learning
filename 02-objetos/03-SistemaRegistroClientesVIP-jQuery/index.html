@@ -11,10 +11,44 @@
 
 <body>
 
+    <div class="d-flex justify-content-center align-items-center vh-100">
+        <!-- Estructura del formulario -->
+        <form class="bg-light p-5 border border-secondary rounded" id="formulario">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input name="nombre" class="form-control" id="nombre">
+            </div>
 
+            <div class="mb-3">
+                <label for="edad" class="form-label">Edad</label>
+                <input name="edad" class="form-control" id="edad">
+            </div>
 
+            <div class="mb-3">
+                <label for="compras_acumuladas" class="form-label">Compras Acumuladas(S/.)</label>
+                <input name="compras_acumuladas" class="form-control" id="compras">
+            </div>
 
+            <div class="form-check">
+                <input name="premium" class="form-check-input" type="checkbox" value="" id="premium" checked>
+                <label class="form-check-label" for="premium">
+                    Premium
+                </label>
+            </div>
 
+            <button type="submit" class="btn btn-primary mt-4">Registrar</button>
+        </form>
+
+        <!-- Estructura del resultado -->
+        <div class="card d-none">
+            <div class="card-header" id="cabecera">
+                Resultado
+            </div>
+            <div class="card-body">
+                <p class="card-text" id="resultado"></p>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="registro.js"></script>
