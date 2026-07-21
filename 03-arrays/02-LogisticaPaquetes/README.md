@@ -4,6 +4,16 @@
 
 Desarrollar un sistema que permita registrar múltiples paquetes de una empresa de logística utilizando **Arrays de Objetos**. Cada paquete debe almacenarse dentro de una colección y posteriormente mostrar información resumida sobre los registros realizados.
 
+<img width="552" height="557" alt="paquetes_1" src="https://github.com/user-attachments/assets/dd6e341c-a937-4f96-afc1-009ad89d3e23" />
+
+<img width="552" height="525" alt="paquetes_2" src="https://github.com/user-attachments/assets/2977e6db-33b8-4874-a10e-80daffdfbd04" />
+
+<img width="530" height="510" alt="paquetes_3" src="https://github.com/user-attachments/assets/9cf138b4-f2e9-409e-a7d7-31e929ccdd41" />
+
+<img width="540" height="516" alt="paquetes_4" src="https://github.com/user-attachments/assets/4b61a479-74d8-4e85-aed1-965e20d331be" />
+
+<img width="442" height="655" alt="paquetes_5" src="https://github.com/user-attachments/assets/fee2e22e-ed4a-4007-bbab-a73599ffc80b" />
+
 ## Requerimientos
 
 - Registrar un paquete mediante un formulario.
