@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion Paquetes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="d-flex justify-content-center align-items-center vh-100">
+        <form id="formulario" class="bg-dark bg-gradient p-5 border rounded text-white">
+            <div class="mb-3">
+                <label for="codigoPaquete" class="form-label">Codigo Paquete</label>
+                <input name="codigoPaquete" class="form-control" id="codigoPaquete">
+            </div>
+            <div class="mb-3">
+                <label for="destinatario" class="form-label">Destinatario</label>
+                <input name="destinatario" class="form-control" id="destinatario">
+            </div>
+            <div class="mb-3">
+                <label for="peso" class="form-label">Peso</label>
+                <input name="peso" class="form-control" id="peso">
+            </div>
+
+            <button id="registrar" type="submit" class="btn btn-primary">Registrar Paquete</button>
+            <button id="despachar" type="submit" class="btn btn-danger">Despachar Paquete</button>
+        </form>
+
+        <!-- tarjeta de respuesta -->
+        <div class="card d-none mx-5" id="tarjeta">
+            <div class="card-header">
+                <p class="fw-semibold" id="cabecera">LOGISTICA</p>
+            </div>
+            <div class="card-body">
+                <p id="resultado"></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    
+    <script src="paquetes2.js"></script>
+</body>
+
+</html>
