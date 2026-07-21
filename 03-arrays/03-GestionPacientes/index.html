@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestion de Pacientes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <h1 class="text-center p-5 display-4 fw-semibold">Panel Administrativo</h1>
+    <div class="d-flex justify-content-center align-items-center vh-80">
+        <form class="bg-dark bg-gradient text-white p-5 border rounded" id="formulario">
+            <!-- alertas -->
+            <div class="mb-3">
+                <button type="button" class="btn btn-primary">
+                    Pacientes <span class="badge text-bg-success" id="pacientesTotales">18</span>
+                </button>
+
+                <button type="button" class="btn btn-primary">
+                    Con Seguro <span class="badge text-bg-warning" id="pacientesConSeguro">10</span>
+                </button>
+
+                <button type="button" class="btn btn-primary">
+                    Sin Seguro <span class="badge text-bg-danger" id="pacientesSinSeguro">8</span>
+                </button>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="dni" class="form-label">DNI</label>
+                    <input name="dni" class="form-control" id="dni">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="edad" class="form-label">Edad</label>
+                    <input name="edad" class="form-control" id="edad">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="nombreCompleto" class="form-label">Nombre Completo</label>
+                    <input name="nombreCompleto" class="form-control" id="nombreCompleto">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="especialidad" class="form-label">Especialidad</label>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            -- Escoger Especialidad --
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" id="listadoEspecialidades">
+                            <li><a class="dropdown-item" href="#">Cardiología</a></li>
+                            <li><a class="dropdown-item" href="#">Pediatría</a></li>
+                            <li><a class="dropdown-item" href="#">Traumatología</a></li>
+                            <li><a class="dropdown-item" href="#">Medicina General</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="medicoAsignado" class="form-label">Medico Asignado</label>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            -- Escoger Medico --
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" id="listadoMedicos">
+                            <li><a class="dropdown-item" href="#">Dr.Ramírez</a></li>
+                            <li><a class="dropdown-item" href="#">Dra.Flores</a></li>
+                            <li><a class="dropdown-item" href="#">Dr.Salazar</a></li>
+                            <li><a class="dropdown-item" href="#">Dra.Castillo</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="costoConsulta" class="form-label">Costo de consulta</label>
+                    <input name="costoConsulta" class="form-control" id="costoConsulta">
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <div class="form-check">
+                    <input name="tieneSeguro" class="form-check-input" type="checkbox" value="" id="tieneSeguro"
+                        checked>
+                    <label class="form-check-label" for="tieneSeguro">
+                        ¿Tienes Seguro?
+                    </label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" id="registrarPaciente">Registrar Paciente</button>
+            <button type="submit" class="btn btn-secondary" id="mostrarPacientes">Mostrar Pacientes</button>
+            <button type="submit" class="btn btn-warning" id="mostrarEstadisticas">Mostrar Estadisticas</button>
+
+        </form>
+
+        <!-- tarjeta para resultados -->
+        <div class="card mx-5">
+            <h5 class="card-header" id="cabecera">HISTORIAL | ESTADISTICAS</h5>
+            <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script src="pacientes.js"></script>
+</body>
+
+</html>
