@@ -145,6 +145,7 @@ function mostrarEstadisticas() {
         data:{
             labels:["Con Seguro","Sin Seguro"],
             datasets:[{
+                label:"Pacientes",
                 data:[pacienteS,pacienteNS],
                 backgroundColor:["#ffc107","#dc3545"]
             }]
