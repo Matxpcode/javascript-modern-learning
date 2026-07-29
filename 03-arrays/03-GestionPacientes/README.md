@@ -1,8 +1,16 @@
-# 02-ClinicaPacientes
+# 03-ClinicaPacientes
 
 ## Descripción
 
 Aplicación web desarrollada con **JavaScript** para gestionar el registro de pacientes de una clínica. El sistema permite registrar pacientes, visualizar el historial completo y mostrar estadísticas mediante gráficos.
+
+<img width=50% alt="clinica1" src="https://github.com/user-attachments/assets/7e0daa57-c152-4e90-bf7d-e57074dcfc7e" />
+
+<img width=50% alt="clinica2" src="https://github.com/user-attachments/assets/139f58ac-4356-4830-b53e-ffcf4eb72c34" />
+
+<img width=50% alt="clinica3" src="https://github.com/user-attachments/assets/1ac8b0bc-faa8-4a00-986e-a036c47730fa" />
+
+<img width=50% alt="clinica4" src="https://github.com/user-attachments/assets/575e173a-2bac-4c00-89a4-51a522f4f1ff" />
 
 ---
 
